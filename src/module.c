@@ -432,7 +432,7 @@ static int add_to_dict(PyObject *dict, const char *key, int value)
     return 0;
 }
 
-PyMODINIT_FUNC PyInit__sqlite3(void)
+PyMODINIT_FUNC PyInit__libsql(void)
 {
     PyObject *module, *dict;
     PyObject *tmp_obj;

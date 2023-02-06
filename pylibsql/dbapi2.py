@@ -25,7 +25,7 @@ import datetime
 import time
 import collections.abc
 
-from pysqlite3._sqlite3 import *
+from pylibsql._libsql import *
 
 paramstyle = "qmark"
 

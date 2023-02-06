@@ -24,7 +24,7 @@
 
 import unittest
 import unittest.mock
-from pysqlite3 import dbapi2 as sqlite
+from pylibsql import dbapi2 as sqlite
 
 def func_returntext():
     return "foo"
